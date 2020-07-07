@@ -107,10 +107,6 @@
   margin-left: 110%;
 }
 
-.card-title4 {
-  color: #000;
-}
-
 .card-img-team {
   position: relative;
   width: 100px;
@@ -123,10 +119,16 @@
 @media (max-width: 1300px) {
   .card1 {
     top: 100px;
+    width: 80%;
+  }
+
+  .card-img-team {
+    width: 20%;
   }
 
   .card2 {
     top: 120px;
+    width: 80%;
   }
 
   .card3 {
@@ -134,6 +136,7 @@
     margin-right: auto;
     top: 140px;
     right: 0;
+    width: 80%;
   }
 
   .card4 {
@@ -141,5 +144,6 @@
     margin-right: auto;
     top: 160px;
     right: 0;
+    width: 80%;
   }
 }
