@@ -1,0 +1,145 @@
+.tagline {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 200;
+  text-align: center;
+  top: 50px;
+}
+
+.intro {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 200;
+  text-align: center;
+  top: 80px;
+  color: #666;
+}
+
+/* Cards layout */
+
+.fourCards {
+  position: absolute;
+  top: 800px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Top Card */
+
+.card1 {
+  position: relative;
+  top: 120px;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #666;
+}
+
+.card-title1 {
+  color: #000;
+}
+
+.card-img-team {
+  position: relative;
+  width: 100px;
+  margin-left: 70%;
+  margin-bottom: 5%;
+}
+
+/* Bottom Card */
+.card2 {
+  position: relative;
+  top: 100px;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #666;
+}
+
+.card-title2 {
+  color: #000;
+}
+
+.card-img-team {
+  position: relative;
+  width: 100px;
+  margin-left: 70%;
+  margin-bottom: 5%;
+}
+
+/* Sideway Cards */
+
+.card3 {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  font-family: 'Poppins', sans-serif;
+  color: #666;
+  bottom: 350px;
+  right: 110%;
+}
+
+.card-title3 {
+  color: #000;
+}
+
+.card-img-team {
+  position: relative;
+  width: 100px;
+  margin-left: 70%;
+  margin-bottom: 5%;
+}
+
+.card4 {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  font-family: 'Poppins', sans-serif;
+  color: #666;
+  bottom: 650px;
+  margin-left: 110%;
+}
+
+.card-title4 {
+  color: #000;
+}
+
+.card-img-team {
+  position: relative;
+  width: 100px;
+  margin-left: 70%;
+  margin-bottom: 5%;
+}
+
+/* Small screen view */
+
+@media (max-width: 1300px) {
+  .card1 {
+    top: 100px;
+  }
+
+  .card2 {
+    top: 120px;
+  }
+
+  .card3 {
+    margin-left: auto;
+    margin-right: auto;
+    top: 140px;
+    right: 0;
+  }
+
+  .card4 {
+    margin-left: auto;
+    margin-right: auto;
+    top: 160px;
+    right: 0;
+  }
+}
